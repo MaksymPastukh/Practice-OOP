@@ -17,11 +17,14 @@ export class MichelinRestaurant extends Restaurant {
 		this.reservations = []
 	}
 
+	// Переопределение метода родительского класса
 	getInfo() {
 		return `${super.getInfo()}, Ресторан Michelin: ${this.getMichelinInfo()}`
 	}
 
+	// Получение информации о ресторане Мишлен
 	getMichelinInfo() {
+		// Выводит в консоль информацию о рейтинге и главном поваре
 		return `Рейтинг заведения: ${this.rating}. Главный повар: ${this.mainChef}`
 	}
 }
