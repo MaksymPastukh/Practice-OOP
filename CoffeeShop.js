@@ -1,5 +1,6 @@
 import { FoodPlace } from './FoodPlace.js'
 
+// Класс кофейни наследует все свойства и методы класса FoodPlace и добавляет свои собственные
 export class CoffeeShop extends FoodPlace {
 	#specialOffer = ''
 	constructor(name, address, seatingCapacity = 10, openingTime, closingTime) {

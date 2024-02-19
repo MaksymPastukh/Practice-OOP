@@ -1,5 +1,6 @@
 import { Restaurant } from './Restaurant.js'
 
+// Класс ресторана Мишлен имеет все свойства и методы класса FoodPlace и Restaurant а так же добавляет свои собственные
 export class MichelinRestaurant extends Restaurant {
 	constructor(
 		name,
